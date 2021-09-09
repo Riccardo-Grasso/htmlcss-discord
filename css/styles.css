@@ -45,8 +45,14 @@
     color: white;
 }
 
+.btn-purple{
+    background-color: #757EB2;
+    color: white;
+}
+
+
 .btn-small {
-    padding: 5px 30px;
+    padding: 0 30px;
 }
 
 .btn-big {
@@ -78,6 +84,7 @@
 .margin {
     margin: 50px auto;
 }
+
 .white-text {
     color: white;
 }
@@ -99,27 +106,27 @@ header {
 
 nav .row {
     padding-top: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 a img {
-    height: 50px;
+    height: 40px;
     vertical-align: middle;
 }
 
-nav ul {
+ul {
     display: inline-block;
     width: 100%;
 }
 
-nav ul li {
+ul li {
     list-style-type: none;
     display: inline-block;
     margin: 0 25px;
     font-size: 20px;
 }
 
-nav ul li a {
+ul li a {
     color: white;
     text-decoration: white;
     font-size: 20px;
@@ -159,7 +166,14 @@ header section a {
 
 .container-1 {
     width: 80%;
+    margin: 50px auto;
+    padding: 120px 0;
+}
+
+.container-2 {
+    width: 80%;
     margin: 80px auto;
+    padding: 20px 0;
 }
 
 .row > .float-right {
@@ -167,18 +181,94 @@ header section a {
 }
 
 .bg-1 {
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .bg-2 {
     background-color: #e4e2e2;
-    padding-bottom: 100px;
-}
-
-.bg-3 {
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .text-right {
     margin-left: 40%;
+}
+
+.bg-2 .container-1 img.img-full {
+    width: 100%;
+}
+
+.col-4_6-textbox {
+    font-size: 60px;
+}
+
+.col-4_6-textbox-2 {
+    font-size: 35px;
+}
+
+.col-4_6 img.stars {
+    position: relative;
+    top: 30px;
+    width: 60%;
+}
+
+footer {
+    background-color: #202225;
+}
+
+.col-4_6-textbox-3 {
+    color: white
+}
+
+.col-4_6-textbox-3 h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #606AAD;
+}
+
+footer .col-1_6 ul {
+    color: white;
+}
+
+footer .col-1_6 ul li{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+footer .col-1_6 ul:first-child{
+    color: #606AAD;
+}
+
+.container-footer {
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+footer .col-2_6 ul {
+    color: white;
+}
+
+footer .col-4_6-textbox-3 ul li{
+    display: inline-block;
+    margin: 20px 30px 0 0;
+    
+}
+
+.bar {
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.center {
+    margin: 35px auto 0 auto;
+
+}
+
+.container-footer1 {
+    padding: 30px 0;
+    width: 100%;
+    display: block;
 }
