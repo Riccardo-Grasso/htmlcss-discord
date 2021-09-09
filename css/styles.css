@@ -6,15 +6,16 @@
 
 /********/
 
-.row {
-    width: 100%;
-}
-
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
+  
+.row > * {
+    float: left;
+}
+
 
 .col-1_6 {
     width: calc(100% / 6);
@@ -77,6 +78,9 @@
 .margin {
     margin: 50px auto;
 }
+.white-text {
+    color: white;
+}
 /********/
 
 
@@ -95,7 +99,7 @@ header {
 
 nav .row {
     padding-top: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 a img {
@@ -121,11 +125,6 @@ nav ul li a {
     font-size: 20px;
     
 }
-
-header section div {
-    color: white;
-}
-
 header section div p {
     max-width: 55%;
     margin: 0 auto;
