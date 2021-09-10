@@ -33,6 +33,7 @@
     border-radius: 50px;
     display: inline-block;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .btn-white{
@@ -88,6 +89,11 @@
 .white-text {
     color: white;
 }
+
+.pdd-bottom {
+    padding-bottom: 50px;
+}
+
 /********/
 
 
@@ -256,9 +262,9 @@ footer .col-4_6-textbox-3 ul li{
 }
 
 .bar {
-    border-top: 1px solid white;
+    border-top: 1px solid #404C6C;
     margin-top: 20px;
-    padding: 20px 0;
+    padding: 30px 0 100px 0;
     position: relative;
 }
 
@@ -271,4 +277,25 @@ footer .col-4_6-textbox-3 ul li{
     padding: 30px 0;
     width: 100%;
     display: block;
+}
+
+.position-right{
+    position: absolute;
+    right: 0;
+}
+
+
+.col-4_6-textbox-3 p {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.font-size-btn-small {
+    font-size: 20px;
+}
+
+.container-footer .col-4_6-textbox-3 img {
+    height: 15px;
+    margin-right: 6px;
 }
