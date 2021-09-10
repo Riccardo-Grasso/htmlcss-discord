@@ -60,17 +60,12 @@
     padding: 14px 18px;
 }
 
-
-.block {
-    border: 1px solid black;
-}
-
 .align-right{
     text-align: right;
 }
 
 .font-small {
-    font-size: 16px;
+    font-size: 15fpx;
 }
 
 .center-block {
@@ -83,7 +78,7 @@
 }
 
 .margin {
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 .white-text {
@@ -152,7 +147,7 @@ header section {
 }
 
 header section h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 header section a {
@@ -246,6 +241,7 @@ footer .col-1_6 ul li{
 
 footer .col-1_6 ul:first-child{
     color: #606AAD;
+    font-weight: 700;
 }
 
 .container-footer {
@@ -295,7 +291,7 @@ footer .col-4_6-textbox-3 ul li{
 }
 
 .font-size-btn-small {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .container-footer .col-4_6-textbox-3 img {
