@@ -160,18 +160,17 @@ header section a {
 }
 
 .col-4_6 img {
-    width: 80%;
+    max-height: 400px;
 }
 
 .col-2_6-textbox {
     width: 64%;
-    margin: 100px 0;
+    margin: 30px 0;
 }
 
 .col-2_6 .col-2_6-textbox h2 {
     font-size: 35px;
     margin-bottom: 30px;
-    margin-top: 150px;
 }
 
 .container-1 {
