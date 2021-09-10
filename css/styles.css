@@ -70,7 +70,7 @@
 }
 
 .font-small {
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .center-block {
@@ -125,11 +125,15 @@ ul {
     width: 100%;
 }
 
+nav ul {
+    text-align: center;
+}
+
 ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 25px;
-    font-size: 20px;
+    margin: 0 5px;
+    font-size: 30px;
 }
 
 ul li a {
@@ -165,7 +169,7 @@ header section a {
 }
 
 .col-2_6 .col-2_6-textbox h2 {
-    font-size: 60px;
+    font-size: 35px;
     margin-bottom: 30px;
     margin-top: 150px;
 }
