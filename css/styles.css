@@ -65,7 +65,7 @@
 }
 
 .font-small {
-    font-size: 15fpx;
+    font-size: 15px;
 }
 
 .center-block {
@@ -154,9 +154,9 @@ header section a {
     margin: 0 10px;
 }
 
-.col-4_6 img {
+/*.col-4_6 img {
     max-height: 400px;
-}
+}*/
 
 .col-2_6-textbox {
     width: 64%;
